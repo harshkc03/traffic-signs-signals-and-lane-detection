@@ -28,7 +28,7 @@ def drow_the_lines(img, lines):
 	img = cv2.addWeighted(img, 0.8, blank_image, 1, 0.0)
 	return img
 
-cap = cv2.VideoCapture("test-video1.mp4") 
+cap = cv2.VideoCapture("test-video2.mp4") 
 while(cap.isOpened()):
 	_, image= cap.read() 
 	print(image.shape)
@@ -49,8 +49,8 @@ while(cap.isOpened()):
 						theta=np.pi/180,
 						threshold=25,
 						lines=np.array([]),
-						minLineLength=4,
-						maxLineGap=100)
+						minLineLength=3,
+						maxLineGap=750)
 	image_with_lines = drow_the_lines(image, lines)
 	cv2.imshow("results",image_with_lines)
 	if cv2.waitKey(1) & 0xFF == ord('q'):	 
