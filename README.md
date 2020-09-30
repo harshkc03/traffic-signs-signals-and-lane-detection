@@ -8,7 +8,17 @@ Detection and tracking of traffic signs, traffic signals and driving lanes using
 
 ## Installation
 
-+ First clone this repository
++ First clone this repository and nagivate your directory to the cloned repository.
+
++ Run- 
+
+⋅⋅⋅ xax`pip install -r requirements.txt`
+
+4. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+⋅⋅⋅To have a li
 
 
 ## Setup and run
