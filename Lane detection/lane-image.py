@@ -59,5 +59,5 @@ lines = cv2.HoughLinesP(cropped_image,
                     maxLineGap=2000)
 image_with_lines = drow_the_lines(image, lines)
 
-plt.imshow(image_with_lines)
+plt.imshow(cv2.cvtColor(image_with_lines, cv2.COLOR_BGR2RGB))
 plt.show()
