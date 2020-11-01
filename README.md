@@ -1,7 +1,7 @@
 
 # Real-time Traffic Signs and Lane Detection
 ## Overview
-Detection and tracking of traffic signs, traffic signals and driving lanes using neural networks and computer vision algorithms. [Technical paper link](https://raw.githubusercontent.com/harshkc03/internship_kurla/master/Real-time%20Traffic%20Signs%20and%20Lane%20Detection.pdf?token=ANW4QIT6L6TEZA4LI23OOV27T4DYA)
+Detection and tracking of traffic signs, traffic signals and driving lanes using neural networks and computer vision algorithms. [Technical paper link](https://drive.google.com/uc?export=download&id=16MS8Ac8Cc-YZXljWEepQd_YkE77o-CZp)
 
 ![](./assets/final.gif)
 
